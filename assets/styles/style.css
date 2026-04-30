@@ -1,8 +1,8 @@
 :root {
-    --cor-fundo: #e2e5e9;
-    --cor-fundo-2: #b9d0ee;
-    --cor-forms: #bbbec3;
-    --cor-texto: #1e3b69;
+    --cor-fundo: #ff8da1;
+    --cor-fundo-2: #c11c85;
+    --cor-forms: #ff13f0;
+    --cor-texto: #fadaf5;
     --cor-erro: #c60404;
     --cor-sucesso: #11c604;
 }
@@ -19,6 +19,11 @@ body {
     gap: 5%;
     color: var(--cor-texto);
     background-color: var(--cor-fundo);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 main{
