@@ -1,4 +1,6 @@
 let cadastro = false;
+        localStorage.setItem("admin", "1234");
+
 
 document.getElementById("toggle").onclick = () => {
     cadastro = !cadastro
