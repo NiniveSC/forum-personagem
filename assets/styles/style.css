@@ -1,8 +1,8 @@
 :root {
-    --cor-fundo: #e2e5e9;
-    --cor-fundo-2: #b9d0ee;
-    --cor-forms: #bbbec3;
-    --cor-texto: #1e3b69;
+    --cor-fundo: #ff8da1;
+    --cor-fundo-2: #c11c85;
+    --cor-forms: #ff13f0;
+    --cor-texto: #fadaf5;
     --cor-erro: #c60404;
     --cor-sucesso: #11c604;
 }
@@ -19,13 +19,18 @@ body {
     gap: 5%;
     color: var(--cor-texto);
     background-color: var(--cor-fundo);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 main{
     padding: 3%;
     gap: 1%;
     border-radius: 10%;
-    box-shadow: 10px 10px 15px rgba(19,20,55, 0.3);
+    box-shadow: 10px 10px 15px rgba(48, 0, 37, 0.342);
     background-color: var(--cor-fundo-2);
 }
 
