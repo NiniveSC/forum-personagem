@@ -44,8 +44,8 @@ main{
 #form-login{
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
-    gap: 5px;
+    align-items: center;
+    gap: 10px;
 }
 #form-login input{
     padding: 5px;
@@ -58,14 +58,13 @@ main{
     background-color: var(--cor-texto);
 }
 #pantera {
-    position: absolute;  /* Solta a imagem do fluxo normal e permite posicioná-la */
-    top: 201px;           /* Distância do topo da página. Ajuste conforme necessário. */
-    right: 238px;          /* Distância da borda direita da página. */
-    
-    /* Mantenha suas configurações de tamanho, mas remova margens que possam interferir */
-    width: 400px;         /* Exemplo de tamanho, ajuste ao seu gosto */
+    position: absolute;  
+    top: 197px;           
+    right: 238px;          
+    display: flex;
+    width: 400px;        
     height: auto;
-    margin: 0;           /* Remova qualquer margem que esteja forçando-a para a esquerda */
+    margin: 0;           
 }
 .toggle{
     text-align: center;
