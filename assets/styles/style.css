@@ -1,0 +1,23 @@
+:root {
+    --cor-fundo: #e2e5e9;
+    --cor-fundo-2: #b9d0ee;
+    --cor-forms: #bbbec3;
+    --cor-texto: #1e3b69;
+    --cor-erro: #c60404;
+    --cor-sucesso: #11c604;
+}
+
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva
+    Verdana, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 5%;
+    color: var(--cor-texto);
+    background-color: var(--cor-fundo);
+}
+
