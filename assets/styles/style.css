@@ -12,22 +12,14 @@
     Verdana, sans-serif;
 }
 
-header {
-    width: 100%;
-    text-align: center;
-    padding-top: 70px; /* Dá um espaço do topo da tela */
-}
-
-h1#titulo {
-    font-size: 35px;
+h1{
+    font-size: 40px;
     color: var(--cor-texto);
     margin-bottom: 10px;
-    text-align: center;      
 }
 
 body {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     gap: 5%;
@@ -46,8 +38,6 @@ main{
     border-radius: 10%;
     box-shadow: 10px 10px 15px rgba(48, 0, 37, 0.342);
     background-color: var(--cor-fundo-2);
-    margin-top: auto;
-    margin-bottom: auto;
 }
 
 #form-login{
