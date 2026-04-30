@@ -30,7 +30,7 @@ main{
     padding: 3%;
     gap: 1%;
     border-radius: 10%;
-    box-shadow: 10px 10px 15px rgba(19,20,55, 0.3);
+    box-shadow: 10px 10px 15px rgba(48, 0, 37, 0.342);
     background-color: var(--cor-fundo-2);
 }
 
