@@ -1,0 +1,28 @@
+:root {
+    --cor-fundo: #ff8da1;
+    --cor-fundo-2: #c11c85;
+    --cor-forms: #ff13f0;
+    --cor-texto: #fadaf5;
+    --cor-texto-2: #a3038b;
+    --cor-erro: #c60404;
+    --cor-sucesso: #11c604;
+}
+
+
+.accordion-button {
+  background-color: var(--cor-fundo) !important;
+  color: black !important;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: var(--cor-fundo-2) !important;
+  color: var(--cor-texto) !important;
+}
+
+h1 {
+  font-size: 50px;
+  color: var(--cor-texto-2);
+  margin-bottom: 10px;
+  text-align: center;
+  width: 100%;
+}
