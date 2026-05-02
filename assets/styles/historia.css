@@ -1,0 +1,18 @@
+:root {
+    --cor-fundo: #ff8da1;
+    --cor-fundo-2: #c11c85;
+    --cor-forms: #ff13f0;
+    --cor-texto: #fadaf5;
+    --cor-erro: #c60404;
+    --cor-sucesso: #11c604;
+}
+
+.accordion-button {
+  background-color: #ffc0cb !important;
+  color: black !important;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #ff1493 !important;
+  color: white !important;
+}
