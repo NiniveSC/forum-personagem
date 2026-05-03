@@ -38,3 +38,7 @@ body {
   object-fit: cover;
 }
 
+.card {
+    background-color: var(--cor-fundo-2);
+}
+
