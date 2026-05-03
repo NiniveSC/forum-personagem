@@ -1,0 +1,81 @@
+:root {
+    --cor-fundo: #ff8da1;
+    --cor-fundo-2: #c11c85;
+    --cor-forms: #ff13f0;
+    --cor-texto: #fadaf5;
+    --cor-texto-2: #c206a6;
+    --cor-erro: #c60404;
+    --cor-sucesso: #11c604;
+}
+@keyframes degradeFundo {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+body {
+    
+    background: linear-gradient(-45deg, #ff8da1, #c11c85, #d304c5, #fadaf5) !important;
+    
+   
+    background-size: 400% 400% !important;
+    
+    
+    animation: degradeFundo 15s ease infinite !important;
+    
+   
+    min-height: 100vh;
+    margin: 0;
+}
+
+@keyframes degradeAnimado {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.inicio {
+    
+    font-size: 35px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    text-align: center;
+    padding: 20px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+    border: 3px solid #c11c85;
+    color: var(--cor-texto);
+
+    
+    background: linear-gradient(-45deg, #ff8da1, #c11c85, #d304c5, #fadaf5);
+    background-size: 400% 400%;
+    animation: degradeAnimado 10s ease infinite;
+}
+
+.textinho {
+    font-size: 20px;
+    color: var(--cor-texto);
+    margin-top: 50px;
+    text-align: center;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 3px; 
+    border-radius: 0%;
+    padding: 20px; 
+    background-color: var(--cor-fundo-2);
+    
+}
+#carouselExampleIndicators {
+    max-width: 800px;  
+    margin: 0 auto;    
+    border-radius: 15px; 
+    overflow: hidden;    
+}
+
+.carousel-item img {
+    height: 500px;     
+    object-fit: cover; 
+}

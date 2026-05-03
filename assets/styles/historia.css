@@ -3,14 +3,14 @@
     --cor-fundo-2: #c11c85;
     --cor-forms: #ff13f0;
     --cor-texto: #fadaf5;
-    --cor-texto-2: #a3038b;
+    --cor-texto-2: #c206a6;
     --cor-erro: #c60404;
     --cor-sucesso: #11c604;
 }
 
 
 .accordion-button {
-  background-color: var(--cor-fundo) !important;
+  background-color: #c11c85af !important;
   color: black !important;
 }
 
@@ -25,5 +25,16 @@ h1 {
   margin-bottom: 10px;
   text-align: center;
   width: 100%;
+}
+body {
+    /* 1. Escolha a sua cor (pode usar a variável que você criou antes) */
+    background: linear-gradient(to left, #ff8da1, #f081c7) !important; 
+
+    /* 2. Garante que o fundo cubra a tela toda mesmo se tiver pouco conteúdo */
+    min-height: 100vh; 
+    
+    /* 3. Mantém a estrutura atual sem empurrar nada */
+    margin: 0; 
+    padding: 0;
 }
 
