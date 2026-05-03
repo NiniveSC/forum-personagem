@@ -1,0 +1,40 @@
+:root {
+    --cor-fundo: #ff8da1;
+    --cor-fundo-2: #c11c85;
+    --cor-forms: #ff13f0;
+    --cor-texto: #fadaf5;
+    --cor-texto-2: #a3038b;
+    --cor-erro: #c60404;
+    --cor-sucesso: #11c604;
+}
+
+body {
+    background: linear-gradient(to left, #ff8da1, #f081c7); 
+    min-height: 100vh; 
+    margin: 0; 
+    padding: 0;
+}
+
+.topo-opiniao {
+    display: flex;
+    align-items: center;
+    gap: 60px; 
+    padding: 20px 40px;
+}
+
+.h1opiniao {
+    font-size: 50px;
+    color: var(--cor-texto-2);
+    margin: 0;
+    margin-left: 130px; 
+}
+
+.img-topo {
+    height: 180px;
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+

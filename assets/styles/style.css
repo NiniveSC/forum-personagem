@@ -7,12 +7,11 @@
     --cor-sucesso: #11c604;
 }
 
-*{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva
-    Verdana, sans-serif;
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva Verdana, sans-serif;
 }
 
-h1{
+h1 {
     font-size: 40px;
     color: var(--cor-texto);
     margin-bottom: 10px;
@@ -33,7 +32,7 @@ body {
     position: relative;
 }
 
-main{
+main {
     padding: 3%;
     gap: 1%;
     border-radius: 10%;
@@ -41,48 +40,52 @@ main{
     background-color: var(--cor-fundo-2);
 }
 
-#form-login{
+#form-login {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 10px;
 }
-#form-login input{
+
+#form-login input {
     padding: 5px;
     border: solid var(--cor-texto);
 }
-#form-login button{
+
+#form-login button {
     border: solid var(--cor-texto);
 }
-#form-login button:hover{
+
+#form-login button:hover {
     background-color: var(--cor-texto);
 }
+
 #pantera {
-    position: absolute;  
-    top: 197px;           
-    right: 238px;          
+    position: absolute;
+    top: 197px;
+    right: 238px;
     display: flex;
-    width: 400px;        
+    width: 400px;
     height: auto;
-    margin: 0;           
+    margin: 0;
 }
-.toggle{
+
+.toggle {
     text-align: center;
     margin-top: 10px;
-    cursor:pointer;
+    cursor: pointer;
     color: var(--cor-texto);
 }
 
-.erro{
+.erro {
     color: var(--cor-erro);
     font-size: 12px;
     text-align: center;
 }
 
-.sucesso{
+.sucesso {
     color: var(--cor-sucesso);
     font-size: 12px;
     text-align: center;
 }
-
 
